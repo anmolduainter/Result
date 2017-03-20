@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    app:cardBackgroundColor="#607D8B"
+    android:elevation="10dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="3dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/medal_rank"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME :- "
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:typeface="serif"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELLO"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:typeface="serif"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University Rank :- "
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:typeface="serif"
+            android:textColor="#fff"
+
+            />
+
+        <TextView
+            android:id="@+id/univ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELLO "
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="70dp"
+            android:typeface="serif"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

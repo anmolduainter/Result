@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joginderpal.result_btech.MainActivity">
+
+   <include
+      layout="@layout/toolbar"
+       android:id="@+id/tool"></include>
+
+   <android.support.design.widget.TextInputLayout
+       android:id="@+id/editt"
+      android:layout_marginTop="200dp"
+      android:layout_centerHorizontal="true"
+       android:layout_width="300dp"
+       android:theme="@style/TextLabel"
+       android:layout_height="wrap_content">
+      <EditText
+          android:id="@+id/edit"
+          android:textColor="#000"
+          android:hint="Enrollment Number"
+          android:inputType="number"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+   </android.support.design.widget.TextInputLayout>
+
+   <Button
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:text="Result"
+       android:id="@+id/button"
+       android:textColor="#fff"
+       android:background="@drawable/round"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="79dp" />
+
+
+</RelativeLayout>
