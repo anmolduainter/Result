@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity{
 
             final int finalI = i;
 
-            json = new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/Himanshuarora97/Result/master/jsonFiles/" + i + "Sem.json", null,
+            json = new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/anmolduainter/Result/master/jsonFiles/" + i + "Sem.json", null,
 
                     new Response.Listener<JSONObject>() {
                         @Override

@@ -126,7 +126,7 @@ public class FragmentOne extends Fragment {
 
 
                         final ProgressDialog progressDialog = ProgressDialog.show(getContext(), "", "University Rank", false, false);
-                        JsonObjectRequest jsonObjectRequest=new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/Himanshuarora97/Result/master/jsonFiles/"+a+"Sem.json", null,
+                        JsonObjectRequest jsonObjectRequest=new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/anmolduainter/Result/master/jsonFiles/"+a+"Sem.json", null,
 
                                 new Response.Listener<JSONObject>() {
                                     @Override
@@ -190,7 +190,7 @@ public class FragmentOne extends Fragment {
 
 
                        final ProgressDialog progressDialog = ProgressDialog.show(getContext(), "", "University Rank", false, false);
-                       JsonObjectRequest jsonObjectRequest=new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/Himanshuarora97/Result/master/jsonFiles/"+a+"Sem.json", null,
+                       JsonObjectRequest jsonObjectRequest=new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/anmolduainter/Result/master/jsonFiles/"+a+"Sem.json", null,
 
                                new Response.Listener<JSONObject>() {
                                    @Override
@@ -280,7 +280,7 @@ public class FragmentOne extends Fragment {
 
         final ProgressDialog progressDialog = ProgressDialog.show(getContext(), "", "Thanks For Waiting", false, false);
 
-        JsonObjectRequest jsonObjectRequest=new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/Himanshuarora97/Result/master/jsonFiles/"+i+"Sem.json", null,
+        JsonObjectRequest jsonObjectRequest=new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/anmolduainter/Result/master/jsonFiles/"+i+"Sem.json", null,
 
 
                 new Response.Listener<JSONObject>() {

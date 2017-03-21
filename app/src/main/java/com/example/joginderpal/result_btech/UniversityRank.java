@@ -139,7 +139,7 @@ public class UniversityRank extends AppCompatActivity{
         Bundle extra = getIntent().getBundleExtra("extra");
         final ArrayList<Student> student= (ArrayList<Student>) extra.getSerializable("student_list");
         if (cla==1) {
-            JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/Himanshuarora97/Result/master/jsonFiles/" + a + "Sem.json", null,
+            JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/anmolduainter/Result/master/jsonFiles/" + a + "Sem.json", null,
 
                     new Response.Listener<JSONObject>() {
                         @Override
